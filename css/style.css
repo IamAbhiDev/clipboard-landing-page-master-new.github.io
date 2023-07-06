@@ -46,3 +46,15 @@ select {
 
     --ff-primary: 'Bai Jamjuree', sans-serif;
 }
+
+/*Basic Styles*/
+
+body {
+    background-color: white;
+    font-family: var(--ff-primary);
+    min-height: 100vh;
+}
+
+ul {
+    list-style-type: none;
+}
