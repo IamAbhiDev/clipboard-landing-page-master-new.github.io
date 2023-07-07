@@ -183,6 +183,6 @@ ul {
 
 .container__snippets__features__feature__description {
     color: var(--grayish-blue);
-    font-size: min(4.35vw, 1.27rem);
+    font-size: 1.02rem;
     line-height: 1.6;
 }
