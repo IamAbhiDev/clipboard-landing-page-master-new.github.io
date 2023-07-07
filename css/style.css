@@ -186,3 +186,30 @@ ul {
     font-size: 1.02rem;
     line-height: 1.6;
 }
+
+/*Devices*/
+
+.container__devices {
+    text-align: center;
+    display: grid;
+    gap: 3.75rem;
+    padding: 9.1rem .9rem;
+}
+
+.container__devices__header {
+    display: grid;
+    gap: 1rem;
+    padding: 0 1rem;
+}
+
+.container__devices__header__heading {
+    color: var(--dark-grayish-blue);
+    font-size: min(7.4vw, 2.17rem);
+    letter-spacing: -0.01em;
+}
+
+.container__devices__header__text {
+    color: var(--grayish-blue);
+    font-size: min(4.35vw, 1.27rem);
+    line-height: 1.6;
+}
