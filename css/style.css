@@ -140,6 +140,7 @@ ul {
 .container__snippets {
     text-align: center;
     display: grid;
+    justify-items: center;
     padding: 2.45rem 1.9rem;
 }
 
@@ -193,6 +194,7 @@ ul {
     text-align: center;
     display: grid;
     gap: 3.75rem;
+    justify-items: center;
     padding: 9.1rem .9rem 0;
 }
 
