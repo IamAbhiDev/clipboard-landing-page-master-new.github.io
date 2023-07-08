@@ -297,7 +297,7 @@ ul {
 .container__download {
     text-align: center;
     display: grid;
-    padding: 10rem 2rem;
+    padding: 10rem 2rem 10.7rem;
 }
 
 .container__download__header {
@@ -315,4 +315,38 @@ ul {
     color: var(--grayish-blue);
     font-size: min(4.35vw, 1.27rem);
     line-height: 1.6;
+}
+
+/*Footer*/
+
+.container__footer {
+    background: #f5f6f8;
+    text-align: center;
+    display: grid;
+    gap: 2.8rem;
+    justify-items: center;
+    padding: 3.2rem;
+}
+
+.container__footer__logo {
+    width: 3.45rem;
+}
+
+.container__footer__links {
+    display: grid;
+    gap: 1.65rem;
+}
+
+.container__footer__links__link__url {
+    color: var(--dark-grayish-blue);
+    font-size: 1.14rem;
+    text-decoration: none;
+}
+
+.container__footer__social {
+    display: grid;
+    gap: 2.5rem;
+    grid-template-columns: repeat(3, 1fr);
+    align-items: center;
+    margin-top: .4rem;
 }
