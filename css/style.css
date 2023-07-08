@@ -353,3 +353,39 @@ ul {
     align-items: center;
     margin-top: .4rem;
 }
+
+/*Responsive Design*/
+
+@media screen and (min-width: 58.75rem) {
+    .container__header {
+        background: url(../images/bg-header-desktop.png);
+        background-repeat: no-repeat;
+        background-position: top;
+        margin-top: .2rem;
+    }
+
+    .download {
+        flex-direction: row;
+        gap: 1.1rem;
+    }
+
+    .download__btn {
+        width: 14rem;
+    }
+
+    .container__companies {
+        gap: 5rem;
+        grid-template-columns: repeat(5, 1fr);
+        padding: 8rem 2rem 0;
+        margin: 0 auto;
+    }
+
+    .container__companies__company {
+        display: flex;
+        align-items: center;
+    }
+
+    .container__companies__img {
+        width: 100%;
+    }
+}
