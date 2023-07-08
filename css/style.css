@@ -72,6 +72,7 @@ ul {
     background: url(../images/bg-header-mobile.png);
     background-repeat: no-repeat;
     background-position: top;
+    background-size: 100% auto;
     padding: 7.7rem 0;
 }
 
