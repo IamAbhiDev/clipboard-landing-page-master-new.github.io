@@ -213,3 +213,67 @@ ul {
     font-size: min(4.35vw, 1.27rem);
     line-height: 1.6;
 }
+
+/*Workflow*/
+
+.container__workflow {
+    text-align: center;
+    display: grid;
+    gap: 5.6rem;
+    padding-top: 5.95rem;
+}
+
+.container__workflow__header {
+    display: grid;
+    gap: .7rem;
+    padding: 0 1.9rem;
+}
+
+.container__workflow__header__heading {
+    color: var(--dark-grayish-blue);
+    font-size: min(7.4vw, 2.17rem);
+    letter-spacing: -0.01em;
+}
+
+.container__workflow__header__text {
+    color: var(--grayish-blue);
+    font-size: min(4.35vw, 1.27rem);
+    line-height: 1.6;
+}
+
+.container__workflow__tools {
+    display: grid;
+    gap: 3.45rem;
+}
+
+.container__workflow__tools__tool {
+    display: grid;
+    gap: 2.5rem;
+    justify-items: center;
+}
+
+.container__workflow__tools__tool:nth-child(2) {
+    gap: 2.75rem;
+}
+
+.container__workflow__tools__tool:nth-child(3) {
+    gap: 2.8rem;
+}
+
+.container__workflow__tools__tool__wrapper {
+    display: grid;
+    gap: 1.2rem;
+    padding: 0 1.9rem;
+}
+
+.container__workflow__tools__tool__wrapper__title {
+    color: var(--dark-grayish-blue);
+    font-size: 1.49rem;
+    letter-spacing: -0.01em;
+}
+
+.container__workflow__tools__tool__wrapper__description {
+    color: var(--grayish-blue);
+    font-size: 1.02rem;
+    line-height: 1.6;
+}
