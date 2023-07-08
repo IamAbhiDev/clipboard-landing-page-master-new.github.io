@@ -193,7 +193,7 @@ ul {
     text-align: center;
     display: grid;
     gap: 3.75rem;
-    padding: 9.1rem .9rem;
+    padding: 9.1rem .9rem 0;
 }
 
 .container__devices__header {
