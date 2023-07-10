@@ -363,6 +363,7 @@ ul {
         background: url(../images/bg-header-desktop.png);
         background-repeat: no-repeat;
         background-position: top;
+        background-size: 100% auto;
         margin-top: .2rem;
     }
 
