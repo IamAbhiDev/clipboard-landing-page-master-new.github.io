@@ -152,13 +152,13 @@ ul {
 
 .container__snippets__header__heading {
     color: var(--dark-grayish-blue);
-    font-size: min(7.4vw, 2.17rem);
+    font-size: min(7.4vw, 2.225rem);
     letter-spacing: -0.01em;
 }
 
 .container__snippets__header__text {
     color: var(--grayish-blue);
-    font-size: min(4.35vw, 1.27rem);
+    font-size: min(4.35vw, 1.14rem);
     line-height: 1.6;
 }
 
@@ -207,13 +207,13 @@ ul {
 
 .container__devices__header__heading {
     color: var(--dark-grayish-blue);
-    font-size: min(7.4vw, 2.17rem);
+    font-size: min(7.4vw, 2.225rem);
     letter-spacing: -0.01em;
 }
 
 .container__devices__header__text {
     color: var(--grayish-blue);
-    font-size: min(4.35vw, 1.27rem);
+    font-size: min(4.35vw, 1.14rem);
     line-height: 1.6;
 }
 
@@ -223,6 +223,7 @@ ul {
     text-align: center;
     display: grid;
     gap: 5.6rem;
+    justify-items: center;
     padding-top: 5.95rem;
 }
 
@@ -234,13 +235,13 @@ ul {
 
 .container__workflow__header__heading {
     color: var(--dark-grayish-blue);
-    font-size: min(7.4vw, 2.17rem);
+    font-size: min(7.4vw, 2.225rem);
     letter-spacing: -0.01em;
 }
 
 .container__workflow__header__text {
     color: var(--grayish-blue);
-    font-size: min(4.35vw, 1.27rem);
+    font-size: min(4.35vw, 1.14rem);
     line-height: 1.6;
 }
 
@@ -300,6 +301,7 @@ ul {
 .container__download {
     text-align: center;
     display: grid;
+    justify-items: center;
     padding: 10rem 2rem 10.7rem;
 }
 
@@ -310,13 +312,13 @@ ul {
 
 .container__download__header__heading {
     color: var(--dark-grayish-blue);
-    font-size: min(7.4vw, 2.17rem);
+    font-size: min(7.4vw, 2.225rem);
     letter-spacing: -0.01em;
 }
 
 .container__download__header__text {
     color: var(--grayish-blue);
-    font-size: min(4.35vw, 1.27rem);
+    font-size: min(4.35vw, 1.14rem);
     line-height: 1.6;
 }
 
@@ -366,6 +368,7 @@ ul {
 
     .container__header__content__wrapper__text {
         max-width: 56ch;
+        word-spacing: 0.01em;
     }
 
     .download {
@@ -377,10 +380,40 @@ ul {
         width: 14rem;
     }
 
+    .container__snippets__header {
+        gap: 1.25rem;
+    }
+
+    .container__snippets__header__text {
+        max-width: 60ch;
+        word-spacing: 0.01em;
+        line-height: 1.65;
+    }
+
+    .container__devices__header {
+        gap: 1.25rem;
+    }
+
+    .container__devices__header__text {
+        max-width: 60ch;
+        word-spacing: 0.01em;
+        line-height: 1.65;
+    }
+
+    .container__workflow__header {
+        gap: 1.25rem;
+    }
+
+    .container__workflow__header__text {
+        max-width: 60ch;
+        word-spacing: 0.01em;
+        line-height: 1.65;
+    }
+
     .container__companies {
         gap: 5rem;
         grid-template-columns: repeat(5, 1fr);
-        padding: 8rem 2rem 0;
+        padding: 10rem 2rem 0;
         margin: 0 auto;
     }
 
@@ -391,5 +424,146 @@ ul {
 
     .container__companies__img {
         width: 100%;
+    }
+
+    .container__download__header {
+        gap: 1.25rem;
+    }
+
+    .container__download__header__text {
+        max-width: 60ch;
+        word-spacing: 0.01em;
+        line-height: 1.65;
+    }
+}
+
+/*Responsive Design - Desktop*/
+
+@media screen and (min-width: 65rem) {
+    .container__header {
+        padding: 8rem 0 7.7rem;
+    }
+
+    .container__header__content__wrapper {
+        margin-top: 3.5rem;
+    }
+
+    .container__header__content__wrapper__text {
+        line-height: 1.5;
+    }
+
+    .container__snippets {
+        row-gap: .9rem;
+        grid-template-columns: 1.33fr 1fr;
+        padding: 1.85rem 0;
+    }
+
+    .container__snippets__header {
+        grid-column: span 2;
+        padding: 0 1.9rem;
+    }
+
+    .container__snippets__img {
+        transform: translateX(-4.2rem);
+    }
+
+    .container__snippets__features {
+        gap: 3.55rem;
+        align-content: center;
+        padding: 0 15.65rem 0 0;
+        margin-top: 2.25rem;
+    }
+
+    .container__snippets__features__feature {
+        text-align: start;
+        align-content: center;
+        gap: .525rem;
+    }
+
+    .container__snippets__features__feature__title {
+        font-size: 1.495rem;
+        letter-spacing: -0.02em;
+    }
+
+    .container__snippets__features__feature__description {
+        max-width: 34ch;
+        font-size: 1rem;
+        line-height: 1.85;
+        letter-spacing: 0.005em;
+    }
+
+    .container__devices {
+        gap: 6.25rem;
+        padding: 7.5rem .9rem 0;
+    }
+
+    .container__workflow {
+        gap: 4.2rem;
+        padding-top: 4.45rem;
+    }
+
+    .container__workflow__tools {
+        gap: 0;
+        grid-template-columns: repeat(3, 1fr);
+        align-items: baseline;
+    }
+
+    .container__workflow__tools__tool {
+        gap: 2.7rem;
+    }
+
+    .container__workflow__tools__tool:nth-child(2) {
+        gap: 2.7rem;
+    }
+
+    .container__workflow__tools__tool:nth-child(3) {
+        gap: 2.7rem;
+    }
+
+    .container__workflow__tools__tool__wrapper {
+        gap: 1.08rem;
+        padding: 0 .725rem;
+    }
+
+    .container__workflow__tools__tool__wrapper__description {
+        max-width: 34ch;
+        line-height: 1.8;
+    }
+
+    .container__download {
+        padding: 9.8rem 2rem 9.55rem;
+    }
+}
+
+/*Responsive Design (Footer)*/
+
+@media screen and (min-width: 85rem) {
+    .container__footer {
+        display: flex;
+        align-items: center;
+        gap: 0;
+        align-items: center;
+        padding: 2.625rem 5.2rem 2.625rem 5.2rem;
+    }
+
+    .container__footer__logo {
+        align-self: baseline;
+        margin-left: 5rem;
+    }
+
+    .container__footer__links {
+        text-align: start;
+        row-gap: 1.2rem;
+        column-gap: 4.5rem;
+        grid-template-columns: repeat(3, 1fr);
+        grid-template-rows: repeat(2, 1fr);
+        grid-auto-flow: column;
+        margin-left: 8.5rem;
+    }
+
+    .container__footer__social {
+        gap: 1.5rem;
+        margin-left: 18.9rem;
+        margin-top: 0;
     }
 }
