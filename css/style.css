@@ -29,13 +29,13 @@ select {
 :root {
     /* Primary */
 
-    --strong-cyan: hsl(171, 66%, 44%);
-    --light-blue: hsl(233, 100%, 69%);
+    --strong-cyan: #187f70;
+    --light-blue: #5767e5;
 
     /* Neutral */
 
     --dark-grayish-blue: hsl(210, 10%, 33%);
-    --grayish-blue: hsl(201, 11%, 66%);
+    --grayish-blue: #6c747a;
 
     /* Font Weight */
 
@@ -99,7 +99,7 @@ ul {
 }
 
 .container__header__content__wrapper__text {
-    color: var(--grayish-blue);
+    color: hsl(201, 11%, 66%);
     font-size: min(4.35vw, 1.27rem);
     line-height: 1.6;
 }
